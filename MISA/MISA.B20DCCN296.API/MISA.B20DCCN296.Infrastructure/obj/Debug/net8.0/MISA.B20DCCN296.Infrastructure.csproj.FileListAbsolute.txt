@@ -1,0 +1,15 @@
+D:\ThucHanh\MISA.B20DCCN296.API\MISA.B20DCCN296.Infrastructure\bin\Debug\net8.0\MISA.B20DCCN296.Infrastructure.deps.json
+D:\ThucHanh\MISA.B20DCCN296.API\MISA.B20DCCN296.Infrastructure\bin\Debug\net8.0\MISA.B20DCCN296.Infrastructure.dll
+D:\ThucHanh\MISA.B20DCCN296.API\MISA.B20DCCN296.Infrastructure\bin\Debug\net8.0\MISA.B20DCCN296.Infrastructure.pdb
+D:\ThucHanh\MISA.B20DCCN296.API\MISA.B20DCCN296.Infrastructure\bin\Debug\net8.0\MISA.B20DCCN296.Core.dll
+D:\ThucHanh\MISA.B20DCCN296.API\MISA.B20DCCN296.Infrastructure\bin\Debug\net8.0\MISA.B20DCCN296.Core.pdb
+D:\ThucHanh\MISA.B20DCCN296.API\MISA.B20DCCN296.Infrastructure\obj\Debug\net8.0\MISA.B20DCCN296.Infrastructure.csproj.AssemblyReference.cache
+D:\ThucHanh\MISA.B20DCCN296.API\MISA.B20DCCN296.Infrastructure\obj\Debug\net8.0\MISA.B20DCCN296.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\ThucHanh\MISA.B20DCCN296.API\MISA.B20DCCN296.Infrastructure\obj\Debug\net8.0\MISA.B20DCCN296.Infrastructure.AssemblyInfoInputs.cache
+D:\ThucHanh\MISA.B20DCCN296.API\MISA.B20DCCN296.Infrastructure\obj\Debug\net8.0\MISA.B20DCCN296.Infrastructure.AssemblyInfo.cs
+D:\ThucHanh\MISA.B20DCCN296.API\MISA.B20DCCN296.Infrastructure\obj\Debug\net8.0\MISA.B20DCCN296.Infrastructure.csproj.CoreCompileInputs.cache
+D:\ThucHanh\MISA.B20DCCN296.API\MISA.B20DCCN296.Infrastructure\obj\Debug\net8.0\MISA.B20.20E4DC3C.Up2Date
+D:\ThucHanh\MISA.B20DCCN296.API\MISA.B20DCCN296.Infrastructure\obj\Debug\net8.0\MISA.B20DCCN296.Infrastructure.dll
+D:\ThucHanh\MISA.B20DCCN296.API\MISA.B20DCCN296.Infrastructure\obj\Debug\net8.0\refint\MISA.B20DCCN296.Infrastructure.dll
+D:\ThucHanh\MISA.B20DCCN296.API\MISA.B20DCCN296.Infrastructure\obj\Debug\net8.0\MISA.B20DCCN296.Infrastructure.pdb
+D:\ThucHanh\MISA.B20DCCN296.API\MISA.B20DCCN296.Infrastructure\obj\Debug\net8.0\ref\MISA.B20DCCN296.Infrastructure.dll

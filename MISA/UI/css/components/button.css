@@ -1,0 +1,63 @@
+.btn_add {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    font-size: 14px;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #50B83C;
+    color: white;
+}
+
+.btn_add:hover{
+    
+    background-color: #2a8618;
+}
+
+.action {
+    display: flex;
+
+}
+
+.action-btn {
+    background-color: #f5f5f5;
+    /* Màu nền */
+    border: none;
+    /* Loại bỏ viền */
+    border-radius: 4px;
+    /* Bo tròn góc */
+    width: 40px;
+    /* Chiều rộng */
+    height: 36px;
+    /* Chiều cao */
+    opacity: 1;
+    /* Độ mờ */
+    cursor: pointer;
+    /* Con trỏ chuột khi hover */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Đổ bóng nhẹ */
+    transition: background-color 0.3s;
+    /* Hiệu ứng chuyển màu nền khi hover */
+    padding: 0;
+    /* Loại bỏ padding */
+}
+
+.action-btn:hover {
+    background-color: #e0e0e0;
+    /* Màu nền khi hover */
+}
+
+.icon {
+    width: 24px;
+    /* Chiều rộng của icon */
+    height: 24px;
+    /* Chiều cao của icon */
+    display: inline-block;
+    /* Đảm bảo icon là một khối inline */
+    vertical-align: middle;
+    /* Căn giữa theo chiều dọc */
+}

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản Lý Nhân Viên</title>
+    <link rel="stylesheet" href="/css/components/navigation.css">
+    <link rel="stylesheet" href="/css/components/slidebar.css">
+    <link rel="stylesheet" href="/css/components/register_employee.css">
+    <link rel="stylesheet" href="/css/components/popup.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <!-- Slide Bar -->
+        <div class="slide-bar expanded" id="slideBar">
+            <div class="content">
+                <a href="/" class="router-link" id="homeLink">
+                    <img src="/assets/icon/dashboard.png" alt="Dashboard" class="router-icon">
+                    <span>Trang chủ</span>
+                </a>
+
+                <a href="" class="router-link active-link" id="employeeLink">
+                    <img src="/assets/icon/dic-employee.png" alt="Employees" class="router-icon">
+                    <span>Nhân viên</span>
+                </a>
+
+                <a href="/" class="router-link" id="reportLink">
+                    <img src="/assets/icon/report.png" alt="Reports" class="router-icon">
+                    <span>Báo cáo</span>
+                </a>
+
+                <a href="/" class="router-link" id="settingsLink">
+                    <img src="/assets/icon/setting.png" alt="Settings" class="router-icon">
+                    <span>Cài đặt</span>
+                </a>
+            </div>
+
+        </div>
+
+        <div class="main-content">
+            <!-- Navigation -->
+            <div class="main_nav">
+                <div class="left_nav">
+                    <div class="menu">
+                        <img src="/assets/image/toggle.png" alt="Toggle Menu">
+                    </div>
+                    <div class="logo">
+                        <img src="/assets/logo/cukcuk-logo.png" alt="CukCuk Logo">
+                    </div>
+                </div>
+                <div class="right_nav">
+                    <div class="avatar">
+                        <img src="/assets/image/default-avatar.jpg" alt="Avatar">
+                    </div>
+                    <div class="name">Xin chào</div>
+                    <div class="option">
+                        <img src="/assets/icon/option.png" alt="Option">
+                    </div>
+                </div>
+            </div>
+
+            <form class="register-form" method="POST" id="register-form">
+                <div class="row">
+                    <h2>Thông tin nhân viên</h2>
+                </div>
+                <div class="row">
+                    <div class="row-left">
+                        <div class="row-item employee-code">
+                            <label for="employee-code">Mã nhân viên</label>
+                            <input type="text" id="employee-code" name="employeeCode" autofocus required>
+                        </div>
+                        <div class="row-item name">
+                            <label for="">Họ và tên</label>
+                            <input type="text" name="fullName" id="fullname" required>
+                        </div>
+                    </div>
+                    <div class="row-right">
+                        <div class="row-item date">
+                            <label for="">Ngày sinh</label>
+                            <input type="date" id="date-of-birth" name="dateOfBirth">
+                        </div>
+                        <div class="row-item sex">
+                            <label for="">Giới tính</label>
+                            <div>
+                                <label>
+                                    <input type="radio" name="gender" value="male" checked>
+                                    Nam
+                                </label><br>
+                                <label>
+                                    <input type="radio" name="gender" value="female">
+                                    Nữ
+                                </label><br>
+                                <label>
+                                    <input type="radio" name="gender" value="other">
+                                    Khác
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="row-left">
+                        <div class="row-item position">
+                            <label for="">Vị trí</label>
+                            <select name="positionId" id="position" style="height: 28px;">
+                                <option value="">Nhân viên</option>
+                                <option value="">Nhân viên</option>
+                                <option value="">Nhân viên</option>
+                                <option value="">Nhân viên</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row-right">
+                        <div class="row-item identification-number">
+                            <label for="">Số căn cước công dân</label>
+                            <input type="number" id="identification-number" name="identityNumber">
+                        </div>
+
+                        <div class="row-item issue-date">
+                            <label for="">Ngày phát hành</label>
+                            <input type="date" id="issue-date" name="identityDate">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="row-left">
+                        <div class="row-item department">
+                            <label for="">Phòng ban</label>
+                            <select name="departmentId" id="department" style="height: 28px;">
+                                <option value="">Nhân viên</option>
+                                <option value="">Nhân viên</option>
+                                <option value="">Nhân viên</option>
+                                <option value="">Nhân viên</option>
+                            </select>
+
+                        </div>
+                    </div>
+                    <div class="row-right">
+                        <div class="row-item place-of-issue">
+                            <label for="">Nơi cấp</label>
+                            <input type="text" id="place-of-issue" name="identityPlace">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="row-left" style="width: 100%; padding-right: 0;">
+                        <div class="row-item address">
+                            <label for="">Địa chỉ</label>
+                            <input type="text" id="address" name="address">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="row-left" style="width: 100%; padding-right: 0; justify-content: space-between;">
+                        <div class="row-item mobile-phone">
+                            <label for="">Điện thoại di động</label>
+                            <input type="text" id="mobile-phone" name="phoneNumber">
+                        </div>
+
+                        <div class="row-item landline-phone">
+                            <label for="">Điện thoại cố định</label>
+                            <input type="text" id="landline-phone" name="landlineNumber">
+                        </div>
+
+                        <div class="row-item email">
+                            <label for="">Email</label>
+                            <input type="text" id="email" name="email">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="row-left" style="width: 100%; padding-right: 0; justify-content: space-between;">
+                        <div class="row-item bank-account">
+                            <label for="">Tài khoản ngân hàng</label>
+                            <input type="text" id="bank-account" name="bankAccount">
+                        </div>
+
+                        <div class="row-item bank-name">
+                            <label for="">Tên ngân hàng</label>
+                            <input type="text" id="bank-name" name="bankName">
+                        </div>
+
+                        <div class="row-item branh">
+                            <label for="">Chi nhánh</label>
+                            <input type="text" id="brach" name="branch">
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="justify-content: flex-end;">
+                    <a class="btn-cancle btn" href="../pages/index.html">Hủy</a>
+                    <button class="btn-add btn" id="button-add">Cất</button>
+                </div>
+            </form>
+        </div>
+
+        <div id="popup" class="popup">
+            <div class="popup-content">
+                <div class="popup-header">
+                    <h2>Notification Title</h2>
+                    <img src="../assets/icon/close-48.png" class="close-btn">
+                </div>
+                <div class="popup-body">
+                    <li>Thông báo lỗi abc</li>
+                    <li>Thông báo lỗi abc</li>
+                    <li>Thông báo lỗi abc</li>
+                    <li>Thông báo lỗi abc</li>
+                </div>
+                <div class="popup-footer">
+                    <button class="close-popup-btn">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+<script src="../js/employee.js"></script>
+</html>

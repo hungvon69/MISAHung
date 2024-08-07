@@ -1,0 +1,66 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0 24px;
+}
+
+.pagination span {
+    margin-right: 10px;
+}
+
+.pagination select {
+    padding: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.pagination-buttons {
+    display: flex;
+    /* Thêm dòng này */
+}
+
+.pagination button {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination button:first-child {
+    margin-right: -1px;
+}
+
+.pagination button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+#prevBtn:hover,
+#nextBtn:hover {
+    scale: 1.1;
+    background-color: #ccc;
+}
+
+#prevBtn,
+#nextBtn {
+    margin-top: 0;
+    margin-left: 4px;
+}
+
+.total-records {
+    position: absolute;
+    margin-left: 5px;
+    font-size: 14px;
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}

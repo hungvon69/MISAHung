@@ -1,0 +1,203 @@
+@import url(./components/button.css);
+@import url(./components/Pagination.css);
+@import url(./components/slidebar.css);
+@import url(./components/navigation.css);
+@import url(./components/popup.css);
+
+body {
+  font-family: GoogleSans;
+  font-size: 13px;
+}
+
+@font-face {
+  font-family: GoogleSans;
+  src: url(../assets/font/GoogleSans-Regular.otf);
+}
+
+@font-face {
+  font-family: GooogleSans Bold;
+  src: url(../assets/font/GoogleSans-Bold.otf);
+}
+
+@font-face {
+  font-family: GooogleSans Italic;
+  src: url(../assets/font/GoogleSans-Italic.otf);
+}
+
+body,
+h1,
+h2,
+h3,
+p,
+div,
+img,
+ul,
+li,
+button,
+input,
+table,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+/* Employee management styles */
+.main-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #f4f4f4;
+}
+
+.top_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #fff;
+  margin-top: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.body_container {
+  background-color: #fff;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  height: 500px;
+}
+
+.tool_bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.quick_filter {
+  position: relative;
+  width: 250px;
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  background-image: url('public/icon/search.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+.employee-table {
+  margin-top: 20px;
+  max-height: 500px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+  overflow-y: auto;
+  display: block;
+  max-height: 400px;
+  table-layout: fixed;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+th:last-child,
+td:last-child {
+  border-right: none;
+}
+
+th {
+  background-color: #f9f9f9;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Pagination styles */
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+
+/* Ẩn hai nút mặc định */
+.button-edit, .button-delete {
+  display: none;
+}
+
+/* Hiển thị hai nút khi di chuột vào dòng */
+tr:hover .button-edit, tr:hover .button-delete {
+  display: inline-block;
+}
+
+/* Căn hai nút sang phải trong ô */
+td:last-child {
+  position: relative;
+}
+
+.button-edit, .button-delete {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.button-edit {
+  right: 30px; /* Khoảng cách từ nút "Sửa" đến lề phải */
+}
+
+.button-delete {
+  right: 5px; /* Khoảng cách từ nút "Xóa" đến lề phải */
+}
+
+/* Styling cho nút */
+.button-edit img, .button-delete img {
+  width: 20px; /* Điều chỉnh kích thước icon */
+  height: 20px;
+}
+
+.button-edit, .button-delete {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}

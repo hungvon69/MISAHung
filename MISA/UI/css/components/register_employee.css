@@ -1,0 +1,153 @@
+.main-content,
+.register-form,
+.row,
+.row-item,
+.row-left, .row-right {
+    display: flex;
+    /* align-items: center; */
+}
+
+.main-content {
+    align-items: center;
+    justify-content: center;
+    background-color: #D9D9D9;
+    width: calc(100% - 200px);
+    height: calc(100vh - 56px);
+    /* padding: 10px 0 0 10px; */
+    float: left;
+}
+
+input {
+    height: 32px;
+}
+
+label{
+    margin-bottom: 2px;
+}
+
+
+.register-form {
+    flex-direction: column;
+    background-color: #FFFFFF;
+    height: calc(100% - 56px);
+    width: calc(100% - 200px);
+    padding: 0 24px;
+    border-radius: 8px;
+}
+
+.row {  
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 48px;
+    margin: 4px 0px;
+}
+
+.row-left {
+    width: 50%;
+    height: 100%;
+    padding-right: 4px;
+}
+
+.row .row-item {
+    flex-direction: column;
+}
+
+.row .row-left .employee-code {
+    width: 40%;
+}
+
+.row .row-left .name {
+    width: calc(60% - 4px);
+    margin-left: 4px;
+}
+
+.row-right {
+    width: 50%;
+    height: 100%;
+    padding-left: 4px;
+}
+
+input[type="date"] {
+    border: 1px solid 1px rgba(red, green, blue, alpha);
+    font-style: normal;
+    padding: 0 4px;
+}
+.date{
+    width: 30%;
+}
+
+.sex{
+    width: calc(70% - 4px);
+    margin-left: 4px;
+}
+
+
+
+.sex div, .sex div label{
+    display: flex;
+    align-items: center;
+    height: 32px;
+    margin: 0 2px;
+}
+
+.position, .department{
+    width: 100%;
+    margin-right: 8px;
+}
+
+.identification-number{
+    width: 75%;
+}
+
+.issue-date{
+    width: calc(35% - 4px);
+    margin-left: 4px;
+}
+
+.place-of-issue{
+    width: 100%;
+}
+
+.address{
+    width: 100%;
+}
+
+.mobile-phone, .landline-phone, .email, .bank-account, .bank-name, .branh{
+    width: 32.5%;
+}
+
+.btn{
+    width: 72px;
+    height: 36px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-cancle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E6F6F3;
+    margin-right: 8px;
+    text-decoration: none;
+}
+
+.btn-cancle:hover{
+    background-color: #99DAD0;
+}
+
+.btn-add{
+    background-color: #089740;
+}
+
+.btn-add:hover{
+    background-color:#067933 ;
+}
+
+.error{
+    border: 1.5px solid red; /* Đường viền màu đỏ */
+    border-radius: 4px;
+}
+

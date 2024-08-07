@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản Lý Nhân Viên</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/components/Pagination.css">
+    <link rel="stylesheet" href="../css/components/button.css">
+
+
+</head>
+
+<body>
+    <div class="container">
+        <!-- Slide Bar -->
+        <div class="slide-bar expanded" id="slideBar">
+            <div class="content">
+                <a href="/" class="router-link" id="homeLink">
+                    <img src="/assets/icon/dashboard.png" alt="Dashboard" class="router-icon">
+                    <span>Trang chủ</span>
+                </a>
+
+                <a href="" class="router-link active-link" id="employeeLink">
+                    <img src="/assets/icon/dic-employee.png" alt="Employees" class="router-icon">
+                    <span>Nhân viên</span>
+                </a>
+
+                <a href="/" class="router-link" id="reportLink">
+                    <img src="/assets/icon/report.png" alt="Reports" class="router-icon">
+                    <span>Báo cáo</span>
+                </a>
+
+                <a href="/" class="router-link" id="settingsLink">
+                    <img src="/assets/icon/setting.png" alt="Settings" class="router-icon">
+                    <span>Cài đặt</span>
+                </a>
+            </div>
+
+        </div>
+
+        <div class="main-content">
+            <!-- Navigation -->
+            <div class="main_nav">
+                <div class="left_nav">
+                    <div class="menu">
+                        <img src="/assets/image/toggle.png" alt="Toggle Menu">
+                    </div>
+                    <div class="logo">
+                        <img src="/assets/logo/cukcuk-logo.png" alt="CukCuk Logo">
+                    </div>
+                </div>
+                <div class="right_nav">
+                    <div class="avatar">
+                        <img src="/assets/image/default-avatar.jpg" alt="Avatar">
+                    </div>
+                    <div class="name">Xin chào</div>
+                    <div class="option">
+                        <img src="/assets/icon/option.png" alt="Option">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quản Lý Nhân Viên -->
+            <div class="top_container">
+                <div class="title">Quản Lý Nhân Viên</div>
+                <button href="employee.html" class="btn_add">
+                    <img src="/assets/icon/add.png" alt="Thêm mới" class="icon"> Thêm mới
+                </button>
+            </div>
+
+
+            <div class="body_container">
+                <div class="tool_bar">
+                    <div class="quick_filter">
+                        <input type="text" class="search-input" placeholder="Tìm kiếm theo mã, họ tên"
+                            id="searchKeyword">
+                        <div class="search-icon" ></div>
+                    </div>
+                    <div class="action">
+                        <button class="action-btn">
+                            <img class="icon" src="/assets/icon/export-excel-50.png" alt="Export Excel">
+                        </button>
+                        <button class="action-btn" id = "refresh-button">
+                            <img class="icon" src="/assets/icon/refresh.png" alt="Refresh">
+                        </button>
+                    </div>
+                </div>
+
+                <div class="employee-table">
+                    <table>
+                        <colgroup>
+                            <col style="width: 5%;">
+                            <col style="width: 10%;">
+                            <col style="width: 17%;">
+                            <col style="width: 7%;">
+                            <col style="width: 10%;">
+                            <col style="width: 18%;">
+                            <col style="width: 33%;">
+                        </colgroup>
+
+                        <thead>
+                            <tr>
+                                <th>STT</th>
+                                <th>Mã nhân viên</th>
+                                <th>Họ và tên</th>
+                                <th>Giới tính</th>
+                                <th>Ngày sinh</th>
+                                <th>Địa chỉ email</th>
+                                <th>Địa chỉ</th>
+                            </tr>
+                        </thead>
+                        <tbody id="employeeTableBody">
+                            <!-- Rows will be added dynamically by JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Phân Trang -->
+            <div class="pagination">
+                <span>Số bản ghi/trang</span>
+                <select id="recordsPerPage" onchange="changeRowsPerPage()">
+                    <option value="5">5</option>
+                    <option value="10" selected>10</option>
+                    <option value="15">15</option>
+                </select>
+                <div class="pagination-buttons">
+                    <button onclick="prevPage()" id="prevBtn">&lt;</button>
+                    <button onclick="nextPage()" id="nextBtn">&gt;</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <div class="popup-header">
+                <h2>Notification Title</h2>
+                <button class="close-btn">
+                    <img src="../assets/icon/close-48.png" alt="Close">
+                </button>
+            </div>
+            <div class="popup-body">
+                <p>Are you sure you want to delete this item?</p>
+            </div>
+            <div class="popup-footer">
+                <button class="close-popup-btn">Xác nhận</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="/js/index.js"></script>
+
+</html>
