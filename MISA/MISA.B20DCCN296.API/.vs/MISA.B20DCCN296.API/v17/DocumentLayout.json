@@ -1,37 +1,41 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\ThucHanh\\MISA.B20DCCN296.API\\",
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\MISAHung\\MISA\\MISA.B20DCCN296.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{03893BCD-1686-42F4-980C-6FF752D1F621}|MISA.B20DCCN296.API\\MISA.B20DCCN296.API.csproj|d:\\thuchanh\\misa.b20dccn296.api\\misa.b20dccn296.api\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ASUS\\Desktop\\MISAHung\\MISA\\MISA.B20DCCN296.API\\MISA.B20DCCN296.API\\obj\\MISA.B20DCCN296.API.csproj.nuget.dgspec.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MISA.B20DCCN296.API\\obj\\MISA.B20DCCN296.API.csproj.nuget.dgspec.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03893BCD-1686-42F4-980C-6FF752D1F621}|MISA.B20DCCN296.API\\MISA.B20DCCN296.API.csproj|c:\\users\\asus\\desktop\\misahung\\misa\\misa.b20dccn296.api\\misa.b20dccn296.api\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{03893BCD-1686-42F4-980C-6FF752D1F621}|MISA.B20DCCN296.API\\MISA.B20DCCN296.API.csproj|solutionrelative:misa.b20dccn296.api\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{641A3CED-C4A7-47F3-B436-B1498EA53C83}|MISA.B20DCCN296.Infrastructure\\MISA.B20DCCN296.Infrastructure.csproj|d:\\thuchanh\\misa.b20dccn296.api\\misa.b20dccn296.infrastructure\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{641A3CED-C4A7-47F3-B436-B1498EA53C83}|MISA.B20DCCN296.Infrastructure\\MISA.B20DCCN296.Infrastructure.csproj|solutionrelative:misa.b20dccn296.infrastructure\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03893BCD-1686-42F4-980C-6FF752D1F621}|MISA.B20DCCN296.API\\MISA.B20DCCN296.API.csproj|d:\\thuchanh\\misa.b20dccn296.api\\misa.b20dccn296.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{03893BCD-1686-42F4-980C-6FF752D1F621}|MISA.B20DCCN296.API\\MISA.B20DCCN296.API.csproj|c:\\users\\asus\\desktop\\misahung\\misa\\misa.b20dccn296.api\\misa.b20dccn296.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{03893BCD-1686-42F4-980C-6FF752D1F621}|MISA.B20DCCN296.API\\MISA.B20DCCN296.API.csproj|solutionrelative:misa.b20dccn296.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03893BCD-1686-42F4-980C-6FF752D1F621}|MISA.B20DCCN296.API\\MISA.B20DCCN296.API.csproj|d:\\thuchanh\\misa.b20dccn296.api\\misa.b20dccn296.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{03893BCD-1686-42F4-980C-6FF752D1F621}|MISA.B20DCCN296.API\\MISA.B20DCCN296.API.csproj|c:\\users\\asus\\desktop\\misahung\\misa\\misa.b20dccn296.api\\misa.b20dccn296.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{03893BCD-1686-42F4-980C-6FF752D1F621}|MISA.B20DCCN296.API\\MISA.B20DCCN296.API.csproj|solutionrelative:misa.b20dccn296.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8B4F70A-F837-4EA9-80F6-BD1786B3CACD}|MISA.B20DCCN296.Core\\MISA.B20DCCN296.Core.csproj|d:\\thuchanh\\misa.b20dccn296.api\\misa.b20dccn296.core\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{641A3CED-C4A7-47F3-B436-B1498EA53C83}|MISA.B20DCCN296.Infrastructure\\MISA.B20DCCN296.Infrastructure.csproj|c:\\users\\asus\\desktop\\misahung\\misa\\misa.b20dccn296.api\\misa.b20dccn296.infrastructure\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{641A3CED-C4A7-47F3-B436-B1498EA53C83}|MISA.B20DCCN296.Infrastructure\\MISA.B20DCCN296.Infrastructure.csproj|solutionrelative:misa.b20dccn296.infrastructure\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B4F70A-F837-4EA9-80F6-BD1786B3CACD}|MISA.B20DCCN296.Core\\MISA.B20DCCN296.Core.csproj|c:\\users\\asus\\desktop\\misahung\\misa\\misa.b20dccn296.api\\misa.b20dccn296.core\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C8B4F70A-F837-4EA9-80F6-BD1786B3CACD}|MISA.B20DCCN296.Core\\MISA.B20DCCN296.Core.csproj|solutionrelative:misa.b20dccn296.core\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8B4F70A-F837-4EA9-80F6-BD1786B3CACD}|MISA.B20DCCN296.Core\\MISA.B20DCCN296.Core.csproj|d:\\thuchanh\\misa.b20dccn296.api\\misa.b20dccn296.core\\interfaces\\ibaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8B4F70A-F837-4EA9-80F6-BD1786B3CACD}|MISA.B20DCCN296.Core\\MISA.B20DCCN296.Core.csproj|solutionrelative:misa.b20dccn296.core\\interfaces\\ibaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8B4F70A-F837-4EA9-80F6-BD1786B3CACD}|MISA.B20DCCN296.Core\\MISA.B20DCCN296.Core.csproj|d:\\thuchanh\\misa.b20dccn296.api\\misa.b20dccn296.core\\interfaces\\iemployeerespository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C8B4F70A-F837-4EA9-80F6-BD1786B3CACD}|MISA.B20DCCN296.Core\\MISA.B20DCCN296.Core.csproj|c:\\users\\asus\\desktop\\misahung\\misa\\misa.b20dccn296.api\\misa.b20dccn296.core\\interfaces\\iemployeerespository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C8B4F70A-F837-4EA9-80F6-BD1786B3CACD}|MISA.B20DCCN296.Core\\MISA.B20DCCN296.Core.csproj|solutionrelative:misa.b20dccn296.core\\interfaces\\iemployeerespository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{641A3CED-C4A7-47F3-B436-B1498EA53C83}|MISA.B20DCCN296.Infrastructure\\MISA.B20DCCN296.Infrastructure.csproj|d:\\thuchanh\\misa.b20dccn296.api\\misa.b20dccn296.infrastructure\\repositories\\positionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C8B4F70A-F837-4EA9-80F6-BD1786B3CACD}|MISA.B20DCCN296.Core\\MISA.B20DCCN296.Core.csproj|c:\\users\\asus\\desktop\\misahung\\misa\\misa.b20dccn296.api\\misa.b20dccn296.core\\interfaces\\ibaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8B4F70A-F837-4EA9-80F6-BD1786B3CACD}|MISA.B20DCCN296.Core\\MISA.B20DCCN296.Core.csproj|solutionrelative:misa.b20dccn296.core\\interfaces\\ibaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{641A3CED-C4A7-47F3-B436-B1498EA53C83}|MISA.B20DCCN296.Infrastructure\\MISA.B20DCCN296.Infrastructure.csproj|c:\\users\\asus\\desktop\\misahung\\misa\\misa.b20dccn296.api\\misa.b20dccn296.infrastructure\\repositories\\positionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{641A3CED-C4A7-47F3-B436-B1498EA53C83}|MISA.B20DCCN296.Infrastructure\\MISA.B20DCCN296.Infrastructure.csproj|solutionrelative:misa.b20dccn296.infrastructure\\repositories\\positionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -42,15 +46,28 @@
       "DocumentGroups": [
         {
           "DockedHeight": 110,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MISA.B20DCCN296.API.csproj.nuget.dgspec.json",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\MISAHung\\MISA\\MISA.B20DCCN296.API\\MISA.B20DCCN296.API\\obj\\MISA.B20DCCN296.API.csproj.nuget.dgspec.json",
+              "RelativeDocumentMoniker": "MISA.B20DCCN296.API\\obj\\MISA.B20DCCN296.API.csproj.nuget.dgspec.json",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\MISAHung\\MISA\\MISA.B20DCCN296.API\\MISA.B20DCCN296.API\\obj\\MISA.B20DCCN296.API.csproj.nuget.dgspec.json",
+              "RelativeToolTip": "MISA.B20DCCN296.API\\obj\\MISA.B20DCCN296.API.csproj.nuget.dgspec.json",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACQAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-08T07:36:55.526Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\ThucHanh\\MISA.B20DCCN296.API\\MISA.B20DCCN296.API\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\MISAHung\\MISA\\MISA.B20DCCN296.API\\MISA.B20DCCN296.API\\Program.cs",
               "RelativeDocumentMoniker": "MISA.B20DCCN296.API\\Program.cs",
-              "ToolTip": "D:\\ThucHanh\\MISA.B20DCCN296.API\\MISA.B20DCCN296.API\\Program.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\MISAHung\\MISA\\MISA.B20DCCN296.API\\MISA.B20DCCN296.API\\Program.cs",
               "RelativeToolTip": "MISA.B20DCCN296.API\\Program.cs",
               "ViewState": "AQIAABsAAAAAAAAAAAAIwC0AAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -61,9 +78,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\ThucHanh\\MISA.B20DCCN296.API\\MISA.B20DCCN296.API\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\MISAHung\\MISA\\MISA.B20DCCN296.API\\MISA.B20DCCN296.API\\appsettings.json",
               "RelativeDocumentMoniker": "MISA.B20DCCN296.API\\appsettings.json",
-              "ToolTip": "D:\\ThucHanh\\MISA.B20DCCN296.API\\MISA.B20DCCN296.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\MISAHung\\MISA\\MISA.B20DCCN296.API\\MISA.B20DCCN296.API\\appsettings.json",
               "RelativeToolTip": "MISA.B20DCCN296.API\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -72,15 +89,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "EmployeeRepository.cs",
-              "DocumentMoniker": "D:\\ThucHanh\\MISA.B20DCCN296.API\\MISA.B20DCCN296.Infrastructure\\Repositories\\EmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\MISAHung\\MISA\\MISA.B20DCCN296.API\\MISA.B20DCCN296.Infrastructure\\Repositories\\EmployeeRepository.cs",
               "RelativeDocumentMoniker": "MISA.B20DCCN296.Infrastructure\\Repositories\\EmployeeRepository.cs",
-              "ToolTip": "D:\\ThucHanh\\MISA.B20DCCN296.API\\MISA.B20DCCN296.Infrastructure\\Repositories\\EmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\MISAHung\\MISA\\MISA.B20DCCN296.API\\MISA.B20DCCN296.Infrastructure\\Repositories\\EmployeeRepository.cs",
               "RelativeToolTip": "MISA.B20DCCN296.Infrastructure\\Repositories\\EmployeeRepository.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAACYAAAAWAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAIBJwCYAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-07T03:23:03.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\MISAHung\\MISA\\MISA.B20DCCN296.API\\MISA.B20DCCN296.API\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "MISA.B20DCCN296.API\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\MISAHung\\MISA\\MISA.B20DCCN296.API\\MISA.B20DCCN296.API\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "MISA.B20DCCN296.API\\Controllers\\EmployeeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T03:35:06.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\MISAHung\\MISA\\MISA.B20DCCN296.API\\MISA.B20DCCN296.Core\\Services\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "MISA.B20DCCN296.Core\\Services\\EmployeeService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\MISAHung\\MISA\\MISA.B20DCCN296.API\\MISA.B20DCCN296.Core\\Services\\EmployeeService.cs",
+              "RelativeToolTip": "MISA.B20DCCN296.Core\\Services\\EmployeeService.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAuwDIAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T04:58:54.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IEmployeeRespository.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\MISAHung\\MISA\\MISA.B20DCCN296.API\\MISA.B20DCCN296.Core\\Interfaces\\IEmployeeRespository.cs",
+              "RelativeDocumentMoniker": "MISA.B20DCCN296.Core\\Interfaces\\IEmployeeRespository.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\MISAHung\\MISA\\MISA.B20DCCN296.API\\MISA.B20DCCN296.Core\\Interfaces\\IEmployeeRespository.cs",
+              "RelativeToolTip": "MISA.B20DCCN296.Core\\Interfaces\\IEmployeeRespository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T05:04:15.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IBaseService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\MISAHung\\MISA\\MISA.B20DCCN296.API\\MISA.B20DCCN296.Core\\Interfaces\\IBaseService.cs",
+              "RelativeDocumentMoniker": "MISA.B20DCCN296.Core\\Interfaces\\IBaseService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\MISAHung\\MISA\\MISA.B20DCCN296.API\\MISA.B20DCCN296.Core\\Interfaces\\IBaseService.cs",
+              "RelativeToolTip": "MISA.B20DCCN296.Core\\Interfaces\\IBaseService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T04:52:48.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PositionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\MISAHung\\MISA\\MISA.B20DCCN296.API\\MISA.B20DCCN296.Infrastructure\\Repositories\\PositionRepository.cs",
+              "RelativeDocumentMoniker": "MISA.B20DCCN296.Infrastructure\\Repositories\\PositionRepository.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\MISAHung\\MISA\\MISA.B20DCCN296.API\\MISA.B20DCCN296.Infrastructure\\Repositories\\PositionRepository.cs",
+              "RelativeToolTip": "MISA.B20DCCN296.Infrastructure\\Repositories\\PositionRepository.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAQwDEAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T04:56:35.77Z",
               "EditorCaption": ""
             },
             {
@@ -92,69 +174,8 @@
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EmployeeController.cs",
-              "DocumentMoniker": "D:\\ThucHanh\\MISA.B20DCCN296.API\\MISA.B20DCCN296.API\\Controllers\\EmployeeController.cs",
-              "RelativeDocumentMoniker": "MISA.B20DCCN296.API\\Controllers\\EmployeeController.cs",
-              "ToolTip": "D:\\ThucHanh\\MISA.B20DCCN296.API\\MISA.B20DCCN296.API\\Controllers\\EmployeeController.cs",
-              "RelativeToolTip": "MISA.B20DCCN296.API\\Controllers\\EmployeeController.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAApwDQAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T03:35:06.386Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EmployeeService.cs",
-              "DocumentMoniker": "D:\\ThucHanh\\MISA.B20DCCN296.API\\MISA.B20DCCN296.Core\\Services\\EmployeeService.cs",
-              "RelativeDocumentMoniker": "MISA.B20DCCN296.Core\\Services\\EmployeeService.cs",
-              "ToolTip": "D:\\ThucHanh\\MISA.B20DCCN296.API\\MISA.B20DCCN296.Core\\Services\\EmployeeService.cs",
-              "RelativeToolTip": "MISA.B20DCCN296.Core\\Services\\EmployeeService.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAuwDIAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T04:58:54.474Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IEmployeeRespository.cs",
-              "DocumentMoniker": "D:\\ThucHanh\\MISA.B20DCCN296.API\\MISA.B20DCCN296.Core\\Interfaces\\IEmployeeRespository.cs",
-              "RelativeDocumentMoniker": "MISA.B20DCCN296.Core\\Interfaces\\IEmployeeRespository.cs",
-              "ToolTip": "D:\\ThucHanh\\MISA.B20DCCN296.API\\MISA.B20DCCN296.Core\\Interfaces\\IEmployeeRespository.cs",
-              "RelativeToolTip": "MISA.B20DCCN296.Core\\Interfaces\\IEmployeeRespository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T05:04:15.166Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IBaseService.cs",
-              "DocumentMoniker": "D:\\ThucHanh\\MISA.B20DCCN296.API\\MISA.B20DCCN296.Core\\Interfaces\\IBaseService.cs",
-              "RelativeDocumentMoniker": "MISA.B20DCCN296.Core\\Interfaces\\IBaseService.cs",
-              "ToolTip": "D:\\ThucHanh\\MISA.B20DCCN296.API\\MISA.B20DCCN296.Core\\Interfaces\\IBaseService.cs",
-              "RelativeToolTip": "MISA.B20DCCN296.Core\\Interfaces\\IBaseService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T04:52:48.029Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PositionRepository.cs",
-              "DocumentMoniker": "D:\\ThucHanh\\MISA.B20DCCN296.API\\MISA.B20DCCN296.Infrastructure\\Repositories\\PositionRepository.cs",
-              "RelativeDocumentMoniker": "MISA.B20DCCN296.Infrastructure\\Repositories\\PositionRepository.cs",
-              "ToolTip": "D:\\ThucHanh\\MISA.B20DCCN296.API\\MISA.B20DCCN296.Infrastructure\\Repositories\\PositionRepository.cs",
-              "RelativeToolTip": "MISA.B20DCCN296.Infrastructure\\Repositories\\PositionRepository.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAA1wDEAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T04:56:35.77Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

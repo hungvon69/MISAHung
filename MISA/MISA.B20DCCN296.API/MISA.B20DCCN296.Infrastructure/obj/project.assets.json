@@ -196,19 +196,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DELL\\.nuget\\packages\\": {}
+    "C:\\Users\\ASUS\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ThucHanh\\MISA.B20DCCN296.API\\MISA.B20DCCN296.Infrastructure\\MISA.B20DCCN296.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\MISAHung\\MISA\\MISA.B20DCCN296.API\\MISA.B20DCCN296.Infrastructure\\MISA.B20DCCN296.Infrastructure.csproj",
       "projectName": "MISA.B20DCCN296.Infrastructure",
-      "projectPath": "D:\\ThucHanh\\MISA.B20DCCN296.API\\MISA.B20DCCN296.Infrastructure\\MISA.B20DCCN296.Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "D:\\ThucHanh\\MISA.B20DCCN296.API\\MISA.B20DCCN296.Infrastructure\\obj\\",
+      "projectPath": "C:\\Users\\ASUS\\Desktop\\MISAHung\\MISA\\MISA.B20DCCN296.API\\MISA.B20DCCN296.Infrastructure\\MISA.B20DCCN296.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ASUS\\Desktop\\MISAHung\\MISA\\MISA.B20DCCN296.API\\MISA.B20DCCN296.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -223,8 +223,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\ThucHanh\\MISA.B20DCCN296.API\\MISA.B20DCCN296.Core\\MISA.B20DCCN296.Core.csproj": {
-              "projectPath": "D:\\ThucHanh\\MISA.B20DCCN296.API\\MISA.B20DCCN296.Core\\MISA.B20DCCN296.Core.csproj"
+            "C:\\Users\\ASUS\\Desktop\\MISAHung\\MISA\\MISA.B20DCCN296.API\\MISA.B20DCCN296.Core\\MISA.B20DCCN296.Core.csproj": {
+              "projectPath": "C:\\Users\\ASUS\\Desktop\\MISAHung\\MISA\\MISA.B20DCCN296.API\\MISA.B20DCCN296.Core\\MISA.B20DCCN296.Core.csproj"
             }
           }
         }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ThucHanh\\MISA.B20DCCN296.API\\MISA.B20DCCN296.Core\\MISA.B20DCCN296.Core.csproj": {}
+    "C:\\Users\\ASUS\\Desktop\\MISAHung\\MISA\\MISA.B20DCCN296.API\\MISA.B20DCCN296.Core\\MISA.B20DCCN296.Core.csproj": {}
   },
   "projects": {
-    "D:\\ThucHanh\\MISA.B20DCCN296.API\\MISA.B20DCCN296.Core\\MISA.B20DCCN296.Core.csproj": {
+    "C:\\Users\\ASUS\\Desktop\\MISAHung\\MISA\\MISA.B20DCCN296.API\\MISA.B20DCCN296.Core\\MISA.B20DCCN296.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ThucHanh\\MISA.B20DCCN296.API\\MISA.B20DCCN296.Core\\MISA.B20DCCN296.Core.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\MISAHung\\MISA\\MISA.B20DCCN296.API\\MISA.B20DCCN296.Core\\MISA.B20DCCN296.Core.csproj",
         "projectName": "MISA.B20DCCN296.Core",
-        "projectPath": "D:\\ThucHanh\\MISA.B20DCCN296.API\\MISA.B20DCCN296.Core\\MISA.B20DCCN296.Core.csproj",
-        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\ThucHanh\\MISA.B20DCCN296.API\\MISA.B20DCCN296.Core\\obj\\",
+        "projectPath": "C:\\Users\\ASUS\\Desktop\\MISAHung\\MISA\\MISA.B20DCCN296.API\\MISA.B20DCCN296.Core\\MISA.B20DCCN296.Core.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ASUS\\Desktop\\MISAHung\\MISA\\MISA.B20DCCN296.API\\MISA.B20DCCN296.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
