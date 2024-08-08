@@ -17,10 +17,8 @@ function init() {
     initEvents();
 }
 
-/**
- * Khởi tạo sự kiện trong employee page
- * Author: Ngô Minh Hiếu (16-7-2024)
- */
+// Khởi tạo sự kiện trong employee page
+
 function initEvents() {
     // lấy dữ liệu của nhân viên trước khi update
     if (currentId !== "" && currentId !== "0") {
@@ -38,10 +36,7 @@ function initEvents() {
     document.getElementById("button-add").addEventListener('click', buttonAddOnClick);
 }
 
-/**
- * Lấy thông tin nhân viên trước khi update
- * Author: Ngô Minh Hiếu (16-7-2024)
- */
+// Lấy thông tin nhân viên trước khi update
 function loadEmployeeById() {
     const requestOptions = {
         method: "GET",
@@ -73,10 +68,7 @@ function loadEmployeeById() {
         .catch((error) => console.error(error));
 }
 
-/**
- * lấy mã nhân viên mới
- * Author: Ngô Minh Hiếu (16-7-2024)
- */
+// lấy mã nhân viên mới
 function getNewEmployeeCode() {
     const requestOptions = {
         method: "GET",
@@ -91,10 +83,7 @@ function getNewEmployeeCode() {
         .catch((error) => console.error(error));
 }
 
-/**
- * lấy danh sách các department từ cơ sở dữ liệu và hiển thị lên select
- * Author: Ngô Minh Hiếu (5-8-2024)
- */
+// lấy danh sách các department từ cơ sở dữ liệu và hiển thị lên select
 function getDepartment() {
     const requestOptions = {
         method: "GET",
@@ -117,10 +106,7 @@ function getDepartment() {
         .catch((error) => console.error(error));
 }
 
-/**
- * lấy danh sách các position từ cơ sở dữ liệu và hiển thị lên select
- * Author: Ngô Minh Hiếu (5-8-2024)
- */
+// lấy danh sách các position từ cơ sở dữ liệu và hiển thị lên select
 function getPosition() {
     const requestOptions = {
         method: "GET",
@@ -143,10 +129,7 @@ function getPosition() {
         .catch((error) => console.error(error));
 }
 
-/**
- * lấy id từ url id = 0 là thêm mới nhân viên id != 0 là cập nhật
- * Author: Ngô Minh Hiếu (5-8-2024)
- */
+// lấy id từ url id = 0 là thêm mới nhân viên id != 0 là cập nhật
 function getCurrentId() {
     let url = new URL(window.location.href);
     let params = new URLSearchParams(url.search);
@@ -154,10 +137,7 @@ function getCurrentId() {
     return params.get('id');
 }
 
-/**
- * Bắt sự kiện cho button cất
- * Author: Ngô Minh Hiếu (5-8-2024)
- */
+// Bắt sự kiện cho button cất
 function buttonAddOnClick() {
     // Lấy đối tượng form
     const form = document.getElementById('register-form');
@@ -241,10 +221,7 @@ function buttonAddOnClick() {
     }
 }
 
-/**
- * lấy dữ liệu từ form
- * Author: Ngô Minh Hiếu (5-8-2024)
- */
+// lấy dữ liệu từ form
 function getDataEmployee(form) {
     // Tạo một đối tượng FormData từ biểu mẫu
     const formData = new FormData(form);
