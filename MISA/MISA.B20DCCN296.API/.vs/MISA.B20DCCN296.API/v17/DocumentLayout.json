@@ -46,8 +46,20 @@
       "DocumentGroups": [
         {
           "DockedHeight": 110,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -56,7 +68,7 @@
               "RelativeDocumentMoniker": "MISA.B20DCCN296.API\\obj\\MISA.B20DCCN296.API.csproj.nuget.dgspec.json",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\MISAHung\\MISA\\MISA.B20DCCN296.API\\MISA.B20DCCN296.API\\obj\\MISA.B20DCCN296.API.csproj.nuget.dgspec.json",
               "RelativeToolTip": "MISA.B20DCCN296.API\\obj\\MISA.B20DCCN296.API.csproj.nuget.dgspec.json",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACQAAAAPAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAABEAAABOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-08-08T07:36:55.526Z",
               "EditorCaption": ""
@@ -71,8 +83,7 @@
               "RelativeToolTip": "MISA.B20DCCN296.API\\Program.cs",
               "ViewState": "AQIAABsAAAAAAAAAAAAIwC0AAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T09:29:18.967Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-07T09:29:18.967Z"
             },
             {
               "$type": "Document",
@@ -84,8 +95,7 @@
               "RelativeToolTip": "MISA.B20DCCN296.API\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-07T09:24:32.149Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-07T09:24:32.149Z"
             },
             {
               "$type": "Document",
@@ -97,8 +107,7 @@
               "RelativeToolTip": "MISA.B20DCCN296.Infrastructure\\Repositories\\EmployeeRepository.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAIBJwCYAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T03:23:03.553Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-07T03:23:03.553Z"
             },
             {
               "$type": "Document",
@@ -123,8 +132,7 @@
               "RelativeToolTip": "MISA.B20DCCN296.Core\\Services\\EmployeeService.cs",
               "ViewState": "AQIAABkAAAAAAAAAAAAuwDIAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T04:58:54.474Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-07T04:58:54.474Z"
             },
             {
               "$type": "Document",
@@ -136,8 +144,7 @@
               "RelativeToolTip": "MISA.B20DCCN296.Core\\Interfaces\\IEmployeeRespository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T05:04:15.166Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-07T05:04:15.166Z"
             },
             {
               "$type": "Document",
@@ -149,8 +156,7 @@
               "RelativeToolTip": "MISA.B20DCCN296.Core\\Interfaces\\IBaseService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T04:52:48.029Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-07T04:52:48.029Z"
             },
             {
               "$type": "Document",
@@ -162,20 +168,7 @@
               "RelativeToolTip": "MISA.B20DCCN296.Infrastructure\\Repositories\\PositionRepository.cs",
               "ViewState": "AQIAABwAAAAAAAAAAAAQwDEAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T04:56:35.77Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "WhenOpened": "2024-08-07T04:56:35.77Z"
             }
           ]
         }

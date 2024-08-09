@@ -98,7 +98,6 @@ td {
   transform: translateY(-50%);
   width: 20px;
   height: 20px;
-  background-image: url('public/icon/search.png');
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;

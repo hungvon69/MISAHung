@@ -36,7 +36,7 @@ function initEvents() {
     document.getElementById("button-add").addEventListener('click', buttonAddOnClick);
 }
 
-// Lấy thông tin nhân viên trước khi update
+// Lấy thông tin nhân viên trước khi updated
 function loadEmployeeById() {
     const requestOptions = {
         method: "GET",
@@ -199,7 +199,7 @@ function buttonAddOnClick() {
                 .then((result) => {
                     if (result.success) {
                         alert("Cập nhật thành công!");
-                        const newPageUrl = `http://127.0.0.1:5500/pages/index.html`;
+                        const newPageUrl = `http://127.0.0.1:5500/UI/pages/index.html`;
                         window.location.href = newPageUrl;
                     } else {
                         let popup = document.querySelector("#popup");

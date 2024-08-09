@@ -5,6 +5,7 @@ let currentDelete;
 let shouldFetchData = true;
 let port = 7129;
 let currentId = "0";
+let totalPage = 0;
 
 // Hàm để lấy dữ liệu nhân viên từ API
 function fetchEmployees() {
@@ -16,13 +17,24 @@ function fetchEmployees() {
             .then((data) => {
                 console.log(data);
                 employees = data;
-                // document.getElementById("totalRecords").innerText = employees.length;
                 renderTable();
+                totalPage = employees.length % rowsPerPage == 0 ? employees.length / rowsPerPage : employees.length / rowsPerPage + 1;
+                currentPage = 1;
+                renderSelect();
                 shouldFetchData = false;
             });
     } catch (error) {
         console.error(error);
     }
+}
+
+function renderSelect(){
+    let select = document.getElementById("recordsPerPage");
+    let options = ``;
+    for(let i=1; i<= totalPage; i++){
+        options += `<option value="${i}">${i}</option>`;
+    }
+    select.innerHTML = options;
 }
 
 // Hàm để hiển thị bảng nhân viên
@@ -41,12 +53,12 @@ function renderTable() {
                         <td>${item.employeeCode}</td>
                         <td>${item.fullName}</td>
                         <td>${item.gender == 1 ? "Nam" : "Nữ" ?? ""}</td>
-                        <td>${item.dateOfBirth?.substring(0, 10) ?? ""}</td>
+                        <td>${item.dateOfBirth?.substring(0, 10) ?? ""}</td>    
                         <td>${item.email ?? ""}</td>
                         <td style="position: relative;">
                             ${item.address ?? ""}
                             <div>
-                                <button data-id="${item.employeeId}" class="button-edit"><img src="../assets/icon/close-48.png" alt=""></button>
+                                <button data-id="${item.employeeId}" class="button-edit"><img src="../assets/icon/info-48.png" alt=""></button>
                                 <button data-id="${item.employeeId}" class="button-delete"><img src="../assets/icon/delete-48.png" alt=""></button>
                             </div>
                         </td>`;
@@ -72,6 +84,8 @@ function prevPage() {
     if (currentPage > 1) {
         currentPage--;
         renderTable();
+        document.getElementById("recordsPerPage").value = currentPage;
+
     }
 }
 
@@ -79,14 +93,15 @@ function prevPage() {
 function nextPage() {
     if (currentPage < Math.ceil(employees.length / rowsPerPage)) {
         currentPage++;
+        document.getElementById("recordsPerPage").value = currentPage;
         renderTable();
     }
 }
 
 // Hàm để thay đổi số hàng mỗi trang
 function changeRowsPerPage() {
-    rowsPerPage = parseInt(document.getElementById('recordsPerPage').value, 10);
-    currentPage = 1;
+    // rowsPerPage = parseInt(document.getElementById('recordsPerPage').value, 10);
+    currentPage = document.getElementById("recordsPerPage").value;
     renderTable();
 }
 
@@ -95,7 +110,7 @@ function addEditButtonEvents(){
     for (const button of buttons) {
         button.addEventListener('click', function(event){
             let currentIdEdit = button.getAttribute('data-id');
-            nextPage(currentIdEdit);
+            nextPageEmployee(currentIdEdit);
         });
     }
 }
@@ -170,8 +185,8 @@ function refreshTable() {
     fetchEmployees();
 }
 
-function nextPage(id){
-    const newPageUrl = `http://127.0.0.1:5500/pages/employee.html?id=${id}`;
+function nextPageEmployee(id){
+    const newPageUrl = `http://127.0.0.1:5500/UI/pages/employee.html?id=${id}`;
     window.location.href = newPageUrl;
 }
 
@@ -180,6 +195,7 @@ fetchEmployees();
 
 // Gán sự kiện click cho nút refresh
 document.getElementById('refresh-button').addEventListener('click', () => {
+    console.log("Refresh")
     fetchEmployees();
 });
 
@@ -196,5 +212,5 @@ document.querySelector('.close-popup-btn').addEventListener('click', () => {
 document.querySelector('.search-input').addEventListener('input', searchEmployees);
 
 document.querySelector(".btn_add").addEventListener("click", () => {
-    nextPage("0");
+    nextPageEmployee("0");
 })
